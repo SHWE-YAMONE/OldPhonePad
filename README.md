@@ -37,7 +37,16 @@ dotnet test
 
 ## AI Usage
 While AI tools were used to tidy up documentation and comments, the core problem-solving and implementation are my own.
-**-AI Tool Used** - Microsoft Copilot 
+
+
+**-AI Tool Used** - Microsoft Copilot
+
+
 **- AI Prompt**
-Write a short, clear README.md for my C# Old Phone Pad project. The project decodes old phone keypad input into text. Describe what each class does (DefaultKeypadLayout, OldPhonePadDecoder, and test project) and keep the README simple
+
+
+Write a short, clear README.md for my C# Old Phone Pad project. The project decodes old phone keypad input into text. Describe what each class does (DefaultKeypadLayout, OldPhonePadDecoder, and test project) and keep the README simple.
+
+
+
 You can see the exact AI prompt used <a href="https://copilot.microsoft.com/shares/Jni5DptMp8BPyEaizT2yT">here</a>.
