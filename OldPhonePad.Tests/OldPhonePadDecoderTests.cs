@@ -18,7 +18,6 @@ public class OldPhonePadDecoderTests
     [Fact]
     public void TestCase2()
     {
-        // This static call is correct
         var result = OldPhonePadDecoder.OldPhonePad("227*#");
         Assert.Equal("B", result);
     }
@@ -27,7 +26,6 @@ public class OldPhonePadDecoderTests
     [Fact]
     public void TestCase3()
     {
-        // This static call is correct
         var result = OldPhonePadDecoder.OldPhonePad("4433555 555666#");
         Assert.Equal("HELLO", result);
     }
@@ -36,7 +34,6 @@ public class OldPhonePadDecoderTests
     [Fact]
     public void TestCase4()
     {
-        // This static call is correct
         var result = OldPhonePadDecoder.OldPhonePad("8 88777444666*664#");
         Assert.Equal("TURING", result);
     }
@@ -45,7 +42,6 @@ public class OldPhonePadDecoderTests
     [Fact]
     public void TestCase5()
     {
-        // This static call is correct
         Assert.Throws<ArgumentNullException>(() =>
             OldPhonePadDecoder.OldPhonePad(null!)
         );
@@ -72,4 +68,5 @@ public class OldPhonePadDecoderTests
 
         Assert.Equal("Only digits, space, '*' and '#' are allowed", ex.Message);
     }
+
 }
